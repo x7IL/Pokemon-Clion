@@ -72,8 +72,8 @@ int main() {
     long def2 = strtol(at(tab2,2),&ptr,10);
     long speed1 = strtol(at(tab1,3),&ptr,10);
     long speed2 = strtol(at(tab2,3),&ptr,10);
-    long attack1 = strtol(at(tab1,1),&ptr,10);
-    long attack2 = strtol(at(tab2,1),&ptr,10);
+    unsigned long attack1 = strtol(at(tab1,1),&ptr,10);
+    unsigned long attack2 = strtol(at(tab2,1),&ptr,10);
 
     while(heal1 >0 && heal2 >0){
         //si pokemon1  plus rapide que pokemon2 alors tout le combat se fait dans la boucle if,
