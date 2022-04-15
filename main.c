@@ -70,7 +70,7 @@ int main() {
         if( at(tab1,2) <= at(tab2,2)){
             switch(nop){
                 case 0:
-                    nop = 0;
+                    nop = 1;
                     heal1 -= 20;
                     //on attribue une valeur aleatroire
                     randd2 = rand() % atoi(at(tab1,1));
@@ -91,7 +91,7 @@ int main() {
 
                 case 1:
                     //printf("s1\n");
-                    nop = 1;
+                    nop = 0;
                     //on attribue une valeur aleatroire
                     randd = rand() % atoi(at(tab1,1));
                     printf("%s attacks for %d damage\n",at(tab1,0),randd);
